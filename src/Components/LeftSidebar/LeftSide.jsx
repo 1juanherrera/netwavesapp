@@ -88,31 +88,25 @@ const LeftSide = () => {
           </Tooltip>
         </div>
       </div>
-      <div className="flex flex-col items-center pt-6">
+      <div className="flex flex-col items-center pt-6 mb-4">
         <p className="font-roboto font-medium text-md text-gray-700 no-underline tracking-normal leading-none">
           {user?.email || userData?.email}
-        </p>
-        <p className="font-roboto font-medium text-xs text-gray-700 no-underline tracking-normal leading-none">
-          Access exclusive tools & insights
-        </p>
-        <p className="font-roboto font-medium text-sm text-gray-700 no-underline tracking-normal leading-none py-2">
-          Try premium for free
         </p>
       </div>
       <div className="flex  flex-col  pl-2">
         <div className="flex items-center pb-4">
           <img className="h-10" src={location} alt="location"></img>
           <p className="font-roboto font-bold text-lg no-underline tracking-normal leading-none">
-            California
+            Barranquilla
           </p>
         </div>
         <div className="flex items-center ">
           <img className="h-10" src={job} alt="job"></img>
           <p className="font-roboto font-bold text-lg no-underline tracking-normal leading-none">
-            React Developer
+            Software Developer
           </p>
         </div>
-        <div className="flex justify-center items-center pt-4">
+        <div className="flex justify-center items-center pt-4 w-full mb-4">
           <p className="font-roboto font-bold text-md text-[#0177b7] no-underline tracking-normal leading-none">
             Events
           </p>
